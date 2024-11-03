@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: hwb(192 6% 36%/0.459);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__form {
+  background: rgb(76, 76, 76);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(0, 255, 200);
+}
+.container__form input {
+  width: 60px;
+  height: 60px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3);
+  background: transparent;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  transition: box-shadow 0.2s;
+}
+.container__form input:hover {
+  box-shadow: -16px -16px 25px rgba(255, 255, 255, 0.2), 10px 10px 25px rgba(0, 0, 0, 0.6);
+}
+.container__form input.equal {
+  width: 140px;
+}
+.container__form .display {
+  width: 97%;
+  text-align: end;
+  padding-right: 10px;
+  background: transparent !important;
+  box-shadow: none;
+}
+.container__form .display:hover {
+  box-shadow: none;
+}/*# sourceMappingURL=style.css.map */
